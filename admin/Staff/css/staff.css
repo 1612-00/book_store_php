@@ -1,0 +1,13 @@
+.body-content {
+	background-color: black;
+}
+
+.stat-box {
+	border: 1px solid #888;
+	border-radius: 4%;
+	box-shadow: 5px 5px 5px #ccc;
+}
+
+.stat-box:hover {
+	transform: translate(-3px, -3px);
+}

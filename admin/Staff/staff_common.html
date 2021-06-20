@@ -1,0 +1,58 @@
+<!-- Header -->
+<div class="nav-bar">
+	<nav class="navbar navbar-expand-lg navbar-dark" style="padding: 0">
+		  <a class="navbar-brand text-dark" href="http://localhost/book_store_web/admin/Staff/staff_home.php"><strong style="font-size: 30px; color: white;">AdMiN</strong></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav ml-auto">
+		      
+		      <li class="nav-item">
+		        <a class="nav-link" href="http://localhost/book_store_web/admin/log_out.php" style="color: white;">Đăng xuất 
+		        	<span>( <?php echo $_SESSION['name'] ?>)</span>
+		        </a>
+		      </li>	      
+		      
+		    </ul>
+		    
+		  </div>
+		</nav>	
+</div>
+	
+
+<!-- Main -->
+<div class="row">
+
+	<div class="col-sm-2 pl-3" style="background-color: #333">
+		<div class="sidebar-sticky pt-3">
+      <ul class="nav flex-column">
+
+        <li class="nav-item mt-2">
+          <a class="nav-link" href="http://localhost/book_store_web/admin/Staff/staff_home.php" style="color: white;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z"/></svg>
+            Thống kê <span class="sr-only">(current)</span>
+          </a>
+        </li>
+
+        <li class="nav-item mt-2">
+          <a class="nav-link" href="http://localhost/book_store_web/admin/Staff/showSpeaker.php" style="color: white;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16"><path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/><path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/></svg>
+            Quản lý diễn giả
+          </a>
+        </li>
+
+        <li class="nav-item mt-2">
+          <a class="nav-link" href="http://localhost/book_store_web/admin/Staff/showTicket.php" style="color: white;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            Quản lý mua vé
+          </a>
+        </li>
+        
+      </ul>
+		</div>
+	</div>
+
+
+

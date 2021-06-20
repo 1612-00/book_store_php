@@ -1,0 +1,235 @@
+* {
+	font-family: "Lato", sans-serif;
+}
+
+.text-main,
+.text-sub {
+	margin-top: 50px; 
+	margin-bottom: 50px;
+}
+
+.text-main {
+	text-transform: uppercase;
+}
+
+hr {
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+
+p {
+	font-size: 15px;
+	line-height: 2;
+}
+
+/*--------------------------------------HEADER--------------------------------------*/
+.header {
+	height: 100vh;
+	background-image: linear-gradient(to right bottom, rgb(83 87 109 / 60%), rgb(51 51 51 / 70%)),
+	url("../image/bookshelve.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.header h1 {
+	letter-spacing: 15px;
+	font-size: 70px;
+}
+
+.header h4 {
+	font-size: 30px;
+    letter-spacing: 10px;
+    margin: 30px;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0;
+	padding: 0;
+	line-height: 3 !important;
+}
+
+.navbar li a {
+	font-size: 16px;
+	margin: 0 10px;
+}
+
+.navbar li a:hover {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.navbar-toggler {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.header-text {
+	padding-top: 270px;
+}
+
+/*---------------------------------------INTRO-------------------------------------------*/
+
+.intro {
+	padding-top: 100px;
+}
+
+.address {
+	padding-top: 50px;
+}
+
+/*--------------------------------------MAIN-IMG-----------------------------------------*/
+
+.main-img {
+	padding: 200px 0;	
+	background-image:
+	linear-gradient(to right bottom, rgb(83 87 109 / 60%), rgb(51 51 51 / 70%)),
+ 	url(../image/main-img.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.main-img-text {
+	letter-spacing: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 1px 2px 15px black;
+}
+
+/*----------------------------------------TIME---------------------------------------------*/
+
+.time-element {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/*--------------------------------------SPEAKERS-----------------------------------------*/
+
+.speakers {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.speakers-box {
+	margin: 50px 0;
+}
+
+.img-thumbnail {
+	border-radius: 8%;	
+}
+
+.img-thumbnail:hover {
+	transform: translate(-4px, -4px);
+	box-shadow: 5px 10px 10px;
+}
+
+.speakers-img {
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.speakers-info {
+	margin: 20px 0 40px 0;
+}
+
+/*---------------------------------------ACTION---------------------------------------*/
+
+.img-flex {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.action img {
+	width: 100%;
+	padding: 5px;
+	border-radius: 5%;
+}
+
+.img-action-text {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.52);
+}
+
+/*----------------------------------------PRICE-------------------------------------------*/
+
+.price {
+	margin-bottom: 100px;
+}
+
+.card {
+	margin: 20px 0;	
+	transition: background-color 0.6s;
+}
+
+.card-title,
+.card-price,
+.card-text {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.card:hover {
+	background-color: rgba(0,0,0,.5);
+	color: white;
+	box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+
+/*-----------------------------------CAROUSEL EVALUATE--------------------------------------*/
+
+.evaluate {
+	padding-top: 50px;
+	padding-bottom: 200px;
+}
+
+.carousel{
+  margin-top: 50px;
+  padding-bottom: 50px;
+  height: 200px;
+}
+.carousel-inner{
+  height: 500px;
+}
+.carousel-caption{
+  color: black;
+  top: 50%;
+}
+
+/*--------------------------------------DONORS-----------------------------------------*/
+
+.donors {
+	margin: 100px;
+}
+
+.logos img {
+	margin: 50px 50px;
+}
+
+/*--------------------------------------CONTACT----------------------------------------*/
+
+.contact {
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-color: #222222;
+	color: white;
+}
+
+.contact form {
+	margin-top: 100px;
+}
+
+.social-link a {
+	margin: 0px 10px;
+}
+
+
+/*---------------------------------------FOOTER-----------------------------------------*/
+
+.footer {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: black;
+}
+
+.back-to-top {
+	margin: 20px;
+}
